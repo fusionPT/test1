@@ -1,5 +1,9 @@
 body {
-  background: #cccccc; }
+  background: #cccccc;
+	font-size: 40px;
+	color:#333;
+	line-height: 2em;
+	}
 
 .blog > h1 {
   border-radius: 4px;
