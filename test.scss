@@ -1,0 +1,47 @@
+$color1: #369;
+$color-fondo: #ccc;
+
+@mixin roundy {
+	border-radius: 4px;
+	background: yellow;
+}
+
+body {
+	background: $color-fondo;
+}
+
+.blog {
+
+	> h1 { 
+		@include roundy;
+		color: $color1;
+		border: 1px solid $color1;
+	}
+}
+
+.blog .entry {
+	margin: 20px;
+
+	h1 {
+		font-size: 24px;
+		color: white;
+	}
+
+	p {
+		font-family: "Helvetica Neue", sans-serif;
+
+	}
+
+	a {
+		color: green;
+		text-decoration: none;
+
+		&:hover {
+			color: blue;
+		}
+	}
+}
+
+.caca {
+	width: 50px;
+}

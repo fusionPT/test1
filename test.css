@@ -1,0 +1,21 @@
+body {
+  background: #cccccc; }
+
+.blog > h1 {
+  border-radius: 4px;
+  background: yellow;
+  color: #336699;
+  border: 1px solid #336699; }
+
+.blog .entry {
+  margin: 20px; }
+  .blog .entry h1 {
+    font-size: 24px;
+    color: white; }
+  .blog .entry p {
+    font-family: "Helvetica Neue", sans-serif; }
+  .blog .entry a {
+    color: green;
+    text-decoration: none; }
+    .blog .entry a:hover {
+      color: blue; }
